@@ -1,1 +1,28 @@
 wc2026_build_plan.md
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Secrets — never commit these
+.env
+
+# Data — too large for git
+data/raw/
+data/processed/
+
+# Databricks
+.databricks/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
